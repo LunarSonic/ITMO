@@ -7,6 +7,8 @@
   <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTA4bzQzd203eGZmN3hlMnF0N2VwdnVuaGx4NzBsMWpnbGVpMTBxZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7NoNw4pMNTvgc/giphy.webp" alt="Описание GIF" width="350" height="290">
 </div>
 
+---
+
 ## Полезные ссылки и материалы
 
 **Конспекты**
@@ -16,9 +18,11 @@
 - [Другие конспекты](https://notesitmo.github.io/cse-notes/first-course/firstcourse.html)
 
 **Несколько видео о том, как работает БЭВМ и делать лабораторные по ОПД**
+
 [Плейлист](https://www.youtube.com/playlist?list=PLlUf0MnyBF44vXZoalNAXTiz2ihUgSOB8)
 
 **Отличный гайд для первокурсников**
+
 [GitHub](https://github.com/Imtjl/1st-year-guide)
 
 **Другие репозитории**
