@@ -4,7 +4,7 @@
 
 **Практик**: Наумова Надежда Александровна
 
-- [Журнал успеваемости за 1 семестр](https://docs.google.com/spreadsheets/d/1utbh7iqf0Z0Xmw4r6xuzh9GEXsv1rRIXxC5R7ilMF7E/edit?gid=332225672#gid=332225672)
+[Журнал успеваемости за 1 семестр](https://docs.google.com/spreadsheets/d/1utbh7iqf0Z0Xmw4r6xuzh9GEXsv1rRIXxC5R7ilMF7E/edit?gid=332225672#gid=332225672)
 
 ### Конспекты
 - [Лабораторная 2](https://docs.google.com/document/d/1RI84w0-sJupsnCos-3JAIhstQaexLQ4sfyx4jcuYc2E/edit?tab=t.0)
