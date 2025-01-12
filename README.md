@@ -1,4 +1,4 @@
-# ITMO - System and Applied Software
+# ITMO - System and Applied Softwarem
 
 Этот репозиторий предназначен для студентов СППО и тех, кто рассматривает поступление в ИТМО. Будут представлены лабораторные и контрольные работы, материалы для подготовки к ним и домашние задания.
 
@@ -10,8 +10,8 @@
 
 - [Сборник конспектов 📖](https://notesitmo.github.io/cse-notes/first-course/firstcourse.html)
 
-- **Классный гайд для первокурсников:** https://github.com/Imtjl/1st-year-guide
+- [Классный гайд для первокурсников](https://github.com/Imtjl/1st-year-guide)
 
-- **Другие репозитории:**
-    - [petrovviacheslav](https://github.com/petrovviacheslav/myitmo/tree/main)
-    - [Gastozavr](https://github.com/Gastozavr/itmo/tree/main)
+**Другие репозитории:**
+- [petrovviacheslav](https://github.com/petrovviacheslav/myitmo/tree/main)
+- [Gastozavr](https://github.com/Gastozavr/itmo/tree/main)
