@@ -1,0 +1,9 @@
+[submodule "1-2 Programming/lab5"]
+	path = 1-2 Programming/lab5
+	url = https://github.com/LunarSonic/programming_lab5.git
+[submodule "1-2 Programming/lab6"]
+	path = 1-2 Programming/lab6
+	url = https://github.com/LunarSonic/programming_lab6.git
+[submodule "1-2 Programming/lab7"]
+	path = 1-2 Programming/lab7
+	url = https://github.com/LunarSonic/programming_lab7.git
