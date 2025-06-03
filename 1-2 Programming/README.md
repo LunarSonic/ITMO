@@ -18,3 +18,5 @@
 | [3-4 лаба](https://github.com/LunarSonic/ITMO/tree/main/1-2%20Programming/lab3-4) | 98/100  |
 |             [5 лаба](https://github.com/LunarSonic/programming_lab5)              | 95/100  |
 |             [6 лаба](https://github.com/LunarSonic/programming_lab6)              | 100/100 |
+|             [7 лаба](https://github.com/LunarSonic/programming_lab7)              | 95/100  |
+|             [8 лаба](https://github.com/LunarSonic/programming_lab8)              | 100/100 |
