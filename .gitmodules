@@ -7,3 +7,6 @@
 [submodule "1-2 Programming/lab7"]
 	path = 1-2 Programming/lab7
 	url = https://github.com/LunarSonic/programming_lab7.git
+[submodule "1-2 Programming/lab8"]
+	path = 1-2 Programming/lab8
+	url = https://github.com/LunarSonic/programming_lab8.git
