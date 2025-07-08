@@ -6,7 +6,7 @@
 - [Журнал успеваемости за 1 семестр](https://docs.google.com/spreadsheets/d/1utbh7iqf0Z0Xmw4r6xuzh9GEXsv1rRIXxC5R7ilMF7E/edit?gid=332225672#gid=332225672)
 - [Журнал успеваемости за 2 семестр](https://docs.google.com/spreadsheets/d/1HgFu1OrVw7-bE9OyYJPwlQxwq_7MQSpc2FGBQb9bmto/edit?gid=1631456971#gid=1631456971)
 
-### Конспекты для подготовки к защите лабораторных работ
+### Конспекты для подготовки к защите лабораторных работ 📚
 - [Лабораторная 2](https://docs.google.com/document/d/1RI84w0-sJupsnCos-3JAIhstQaexLQ4sfyx4jcuYc2E/edit?tab=t.0)
 - [Лабораторная 3-4](https://docs.google.com/document/d/1qAMMtMskejLZ1ndPD8uiXeCzmqg5-pV0CnWHzIS2_Ws/edit?tab=t.0#heading=h.g6mvqs1l0gj5)
 - [Лабораторная 5](https://docs.google.com/document/d/1shCS-Uhn3i6AurfXa41I_Gs3AM0AcAmwKqEmJqdofrw/edit?tab=t.0)
@@ -14,7 +14,7 @@
 - [Лабораторная 7](https://github.com/LunarSonic/ITMO/blob/main/1-2%20Programming/notes/%D0%BB%D0%B0%D0%B1%D0%B0%207%20-%20%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE%D0%BF%D0%BE%D1%82%D0%BE%D1%87%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D0%B8%20%D0%B1%D0%B4.pdf)
 - [Лабораторная 8](https://github.com/LunarSonic/ITMO/blob/main/1-2%20Programming/notes/%D0%BB%D0%B0%D0%B1%D0%B0%208%20-%20gui.pdf)
 
-### Лабораторные работы
+### Лабораторные работы 📁
 |                                лабораторная работа                                | балл    |
 |:---------------------------------------------------------------------------------:|---------|
 |   [1 лаба](https://github.com/LunarSonic/ITMO/tree/main/1-2%20Programming/lab1)   | 93/100  |
