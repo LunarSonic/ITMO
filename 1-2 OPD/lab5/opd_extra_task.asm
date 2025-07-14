@@ -1,14 +1,15 @@
 ORG 0x60
 ADDR: WORD $DATA ; ячейка с адресом ячейки данных, которые мы вводим с помощью ВУ-9
-TEMP: WORD ? ; переменная для работы с 1 цфирой дня
+TEMP: WORD ? ; переменная для работы с 1 цифирой дня
 TOTAL: WORD ? ; сумма (день + код месяца + код года), потом уменьшаем её на 7, чтобы получить остаток
 REMAINDER: WORD ? ; остаток (TOTAL mod7)
 COUNTER: WORD 0x05 ; счётчик для 5 символов (учитывая точку)
+MULTIPLIER: WORD 0xA
 
 ; значения для рассчёта дня недели по формуле (день + код месяца + код года) mod7
 ; например, 19.03 (19+2+3) = 24, 24mod7 = 3 - среда
 ; 0 - воскресенье, 1 - понедельник и т.д
-MONTH_CODE: WORD ? ; код месяца, который будет устанавливаться при проверке месяца
+MONTH_CODE: WORD ?      ; код месяца, который будет устанавливаться при проверке месяца
 YEAR_CODE: WORD 0x03
 MARCH_CODE: WORD 0x02
 APRIL_CODE: WORD 0x05
@@ -47,8 +48,8 @@ CHECK_MARCH:
     BEQ CHECK_MARCH_2   ; то переходим к проверке 2 цифры дня
 
     CMP #0x03 ; если она равна 3
-    BEQ CHECK_MARCH_3 ; то переходим к проверке 2 цифры дня
-    JUMP PRINT_ERROR ; иначе ошибка
+    BEQ CHECK_MARCH_3   ; то переходим к проверке 2 цифры дня
+    JUMP PRINT_ERROR    ; иначе ошибка
 
     CHECK_MARCH_1:
          LD 0x01
@@ -71,10 +72,10 @@ CHECK_MARCH:
 ; проверяем дату, если это апрель
 CHECK_APRIL:
     LD APRIL_CODE
-    ST MONTH_CODE      ; устанавливаем код месяца (для апреля - 05)
+    ST MONTH_CODE       ; устанавливаем код месяца (для апреля - 05)
     ; день для апреля может быть только 01 и 02
     LD 0x00
-    CMP #0x00          ; если первая цифра равна 0
+    CMP #0x00           ; если первая цифра равна 0
     BNE PRINT_ERROR
     LD 0x01
     CMP #0x01
@@ -94,16 +95,16 @@ CHECK_POINT:
 CALCULATE_TOTAL:
     LD 0x00
     ST TEMP
+
+MULTIPLY_LOOP:
+    LD TOTAL
     ADD TEMP
-    ADD TEMP
-    ADD TEMP
-    ADD TEMP
-    ADD TEMP
-    ADD TEMP
-    ADD TEMP
-    ADD TEMP
-    ADD TEMP         ; умножение на 10
-    ADD 0x01         ; (TEMP*10 + 2 цифра дня)
+    ST TOTAL
+    LOOP MULTIPLIER      ; (TEMP * 10)
+    JUMP MULTIPLY_LOOP
+
+    LD TOTAL
+    ADD 0x01             ; (TEMP*10 + 2 цифра дня)
     ADD MONTH_CODE
     ADD YEAR_CODE
     ST TOTAL
@@ -111,14 +112,14 @@ CALCULATE_TOTAL:
 ; вычисление дня недели (TOTAL mod7)
 MOD_LOOP:
     LD TOTAL
-    SUB #7           ; вычитаем 7 из AC
-    BLT MOD_FINISHED ; если результат < 7, выходим из цикла
-    ST TOTAL         ; иначе сохраняем новое значение в TOTAL (чтобы дальше отнимать 7 и в итоге получить остаток)
-    ST REMAINDER     ; устанвливаем остаток
+    SUB #7               ; вычитаем 7 из AC
+    BLT MOD_FINISHED     ; если результат < 7, выходим из цикла
+    ST TOTAL             ; иначе сохраняем новое значение в TOTAL (чтобы дальше отнимать 7 и в итоге получить остаток)
+    ST REMAINDER         ; устанвливаем остаток
     JUMP MOD_LOOP
 
 MOD_FINISHED:
-    LD REMAINDER     ; загружаем остаток в AC
+    LD REMAINDER         ; загружаем остаток в AC
     CMP #00
     BEQ PRINT_SUNDAY
     CMP #01
@@ -175,7 +176,7 @@ PRINT_SUNDAY:    PUSH
                  CALL $SUNDAY
                  POP
                  JUMP FINISH
-                 
+
 ORG 0x150
 ERROR: LD #0x18 ; буква о
        OUT 0x10
@@ -240,7 +241,7 @@ ERROR: LD #0x18 ; буква о
        OUT 0x10
        RET
 
-ORG 0x190
+ORG 0x200
 MONDAY: LD #0x3C ; буква п
         OUT 0x10
         LD #0x20
@@ -416,7 +417,7 @@ TUESDAY: LD #0x3C ; буква в
          OUT 0x10
          RET
 
-ORG 0x295
+ORG 0x300
 WEDNESDAY: LD #0x18 ; буква с
            OUT 0x10
            LD #0x24
@@ -546,11 +547,11 @@ FRIDAY:   LD #0x3C ; буква п
           LD #0x00
           OUT 0x10
 
-          LD #0x3C ; буква я
+          LD #0x34 ; буква я
           OUT 0x10
           LD #0x28
           OUT 0x10
-          LD #0x34
+          LD #0x3c
           OUT 0x10
           LD #0x00
           OUT 0x10
@@ -584,11 +585,13 @@ FRIDAY:   LD #0x3C ; буква п
           LD #0x00
           OUT 0x10
 
-          LD #0x3C ; буква ц
+          LD #0x38 ; буква ц
           OUT 0x10
           LD #0x08
           OUT 0x10
           LD #0x38
+          OUT 0x10
+          LD #0x0c
           OUT 0x10
           LD #0x00
           OUT 0x10
@@ -607,7 +610,7 @@ FRIDAY:   LD #0x3C ; буква п
           OUT 0x10
           RET
 
-ORG 0x440
+ORG 0x450
 SATURDAY: LD #0x18 ; буква с
           OUT 0x10
           LD #0x24
@@ -674,7 +677,7 @@ SATURDAY: LD #0x18 ; буква с
           OUT 0x10
           RET
 
-ORG 0x480
+ORG 0x500
 SUNDAY:   LD #0x3C ; буква в
           OUT 0x10
           LD #0x2C
@@ -779,5 +782,3 @@ SUNDAY:   LD #0x3C ; буква в
 
 ORG 0x00
 DATA: WORD ?
-
-
