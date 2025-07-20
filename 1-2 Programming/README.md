@@ -10,9 +10,9 @@
 - [Лабораторная 2](https://docs.google.com/document/d/1RI84w0-sJupsnCos-3JAIhstQaexLQ4sfyx4jcuYc2E/edit?tab=t.0)
 - [Лабораторная 3-4](https://docs.google.com/document/d/1qAMMtMskejLZ1ndPD8uiXeCzmqg5-pV0CnWHzIS2_Ws/edit?tab=t.0#heading=h.g6mvqs1l0gj5)
 - [Лабораторная 5](https://docs.google.com/document/d/1shCS-Uhn3i6AurfXa41I_Gs3AM0AcAmwKqEmJqdofrw/edit?tab=t.0)
-- [Лабораторная 6](https://github.com/LunarSonic/ITMO/blob/main/1-2%20Programming/notes/%D0%BB%D0%B0%D0%B1%D0%B0%206%20-%20%D0%BA%D0%BB%D0%B8%D0%B5%D0%BD%D1%82%20%D0%B8%20%D1%81%D0%B5%D1%80%D0%B2%D0%B5%D1%80.pdf)
-- [Лабораторная 7](https://github.com/LunarSonic/ITMO/blob/main/1-2%20Programming/notes/%D0%BB%D0%B0%D0%B1%D0%B0%207%20-%20%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE%D0%BF%D0%BE%D1%82%D0%BE%D1%87%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D0%B8%20%D0%B1%D0%B4.pdf)
-- [Лабораторная 8](https://github.com/LunarSonic/ITMO/blob/main/1-2%20Programming/notes/%D0%BB%D0%B0%D0%B1%D0%B0%208%20-%20gui.pdf)
+- [Лабораторная 6](https://superficial-chess-8d6.notion.site/6-1d8f3d9d10b8800a9b41ded903a416d5)
+- [Лабораторная 7](https://superficial-chess-8d6.notion.site/7-1d5f3d9d10b880feb4b4fad03c29128e)
+- [Лабораторная 8](https://superficial-chess-8d6.notion.site/8-200f3d9d10b880c09fe7c7ba9326d18c)
 
 ### Лабораторные работы 📁
 |                                лабораторная работа                                | балл    |
