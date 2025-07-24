@@ -9,7 +9,7 @@
 ### Конспекты для подготовки к защите лабораторных работ 📚
 - [Лабораторная 1](https://docs.google.com/document/d/1m4FVjkkHXRYLSN-N-x2asU3x_qBIdhHFH1YiUne3pb4/edit?usp=sharing)
 - [Лабораторная 2](https://docs.google.com/document/d/1HZlE5XiIhVIm7tqEU_CaJ-4_YcBawNis-DmKVC-rt5Q/edit?usp=sharing)
-- [Лабораторная 3](https://github.com/LunarSonic/ITMO/blob/main/1-2%20OPD/notes/%D0%BB%D0%B0%D0%B1%D0%B0%203.pdf)
-- [Лабораторная 4](https://github.com/LunarSonic/ITMO/blob/main/1-2%20OPD/notes/%D0%BB%D0%B0%D0%B1%D0%B0%204.pdf)
-- [Лабораторная 5](https://github.com/LunarSonic/ITMO/blob/main/1-2%20OPD/notes/%D0%BB%D0%B0%D0%B1%D0%B0%205.pdf)
-- [Лабораторная 6](https://github.com/LunarSonic/ITMO/blob/main/1-2%20OPD/notes/%D0%BB%D0%B0%D0%B1%D0%B0%206.pdf)
+- [Лабораторная 3](https://superficial-chess-8d6.notion.site/3-190f3d9d10b8805397a3cf27e518554e)
+- [Лабораторная 4](https://superficial-chess-8d6.notion.site/4-192f3d9d10b8800e9fc1ec8cee2680b3)
+- [Лабораторная 5](https://superficial-chess-8d6.notion.site/5-1aef3d9d10b880049cdaef3348256a4e)
+- [Лабораторная 6](https://superficial-chess-8d6.notion.site/6-1d7f3d9d10b880c5ba31c7dd4bde3e3f)
