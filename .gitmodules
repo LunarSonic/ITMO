@@ -10,3 +10,15 @@
 [submodule "1-2 Programming/lab8"]
 	path = 1-2 Programming/lab8
 	url = https://github.com/LunarSonic/programming_lab8.git
+[submodule "lab1"]
+	path = 3 Web Programming/lab1
+	url = https://github.com/LunarSonic/web_lab1
+[submodule "lab2"]
+	path = 3 Web Programming/lab2
+	url = https://github.com/LunarSonic/web_lab2
+[submodule "lab3"]
+	path = 3 Web Programming/lab3
+	url = https://github.com/LunarSonic/web_lab3
+[submodule "lab4"]
+	path = 3 Web Programming/lab4
+	url = https://github.com/LunarSonic/web_lab4
